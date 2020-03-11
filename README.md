@@ -4,7 +4,7 @@
 Angular is a TypeScript based Web development framework for Single Page Applications. Angular is an open-source web framework maintained by **Google**. Initialy Google came with a library for developing Single Page Applications called AngularJS. Later, the same team worked on a different project that released as a development framework for SPA applications. It is named as Angular. Angular JS uses JavaScript to develop web UI applications. But, Angular uses TypeScript to develop SPA applications that helps developers to create type-safe and ES6 based JavaScript applications. 
 Angular is a web UI development framework not a library. A libary offers just a collection of functions that can be called from any web application.
 #### Angular offers the following features:
-1) Angular CLI.  
+1) **Angular CLI.**  
     Angular providers a command line tool to create, test, run and build project. This CLI tool provides a rich set of commands that can also be used to generate your Angular components, services, directives, pipes, modules, classes and more. Use the CLI command to run the project in watch mode during development. You can also run the test files using CLI command. A single CLI command can also produce code that can be deployed in your web server.
 2) Open-source and cross-platform development 
 3) MVC Architecture
