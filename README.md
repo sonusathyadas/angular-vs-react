@@ -1,5 +1,5 @@
 
-![Angular VS ReactJS](/resources/angular-vs-react.png)
+![Angular VS ReactJS](resources/angular-vs-react.png)
 # Angular vs React.JS
 ---
 ### Angular
