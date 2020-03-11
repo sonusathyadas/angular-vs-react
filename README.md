@@ -1,3 +1,5 @@
+
+![Angular VS ReactJS](https://raw.githubusercontent.com/sonusathyadas/angular-vs-react/master/resources/angular-vs-react.png)
 # Angular vs React.JS
 ---
 ### Angular
@@ -37,17 +39,34 @@ Angular is a web UI development framework not a library. A libary offers just a 
 ReactJS is a JavaScript library for building fast rendering User Interfaces for you web applications. ReactJS library is developed and maintained by **Facebook**. React uses *JSX* for developing the UI components.  It is declarative, open-source and cross-platform library that uses a concept called *Virtual DOM* for developing fast rendering UI elements.   
 
 #### Features of ReactJS
-1) Open-source and cross-platform support.
-2) CLI tool to start with quick start templates.
-3) Virtual DOM support.
-4) One-way data binding
-4) Easy integration with other web frameworks.
-5) Ideal for mobile app development.
-6) Rich set of libraries
-    a) routing
-    b) state management
-    c) theming
-7) Better community support  
+1) **Open-source and cross-platform support**  
+    ReactJS is developed by Facebook and it is available as an open-source library for UI developers. Since it is a small JavaScript library you can develop your application in any platform with any IDEs.
+2) **CLI tool to start with quick start templates** 
+    You can start creating your first React application using the *create-react-app* CLI tool. This CLI tool can generate basic template of the React application with JavaScript and TypeScript language. You can use this CLI tool to create, run and build the project with ease. Install the tool gloabally using `npm install -g create-react-app` command.
+3) **Virtual DOM support**  
+    React uses a concept called **Virtual DOM** for fast rendering of UI elements. Virtual DOM is an exact copy of the Browser DOM that is updated frequently based on the data changes. It is quick to update the Virtual DOM than the browser DOM since it is a memory object. 
+4) **One-way data binding**  
+    ReactJS is introduced as a UI development library for rendering data quickly on the web pages. For that, it used the one-way data bidning to update the data on the UI element. React does not support two-way data binding by default. But you can use the events and properties to achieve this.
+4) **Easy integration with other web frameworks**
+    Since it is a UI development library you can easily integrate React with any of your web frameworks such as PHP, JSP and Servlets, ASP.NET, Angular etc. You can use the CDN links or downloadable JS files in your applications.
+5) **Ideal for mobile app development**  
+    You can create native apps for you Android and iOS devices using the React Native. React Native is a custom renderer that runs on the React platform. It uses the native components instead of the web components. 
+6) **Rich set of libraries**  
+    Since React is introduced as a library for fast rendering UI components, it does not support some of the web features such as routing, form validation, centralized state management, Dependency Injection etc out of the box. But, it allows you to use a rich set of JavaScript libraries such as React Router for routing, Redux for state management, React Bootstrap for responsive web design, React From for form validations etc.
+7) **Better community support**  
+    ReactJS is now driven by a community and individual developers. You can contribute to the React through the community. 
 
 [Navigate to React website](https://reactjs.org/)
 
+### Which one to choose - React or Angular?  
+One of the major question asked by developers and project managers to me about is 'Which one to choose- React or Angular?'. Every one have their own reason for choosing Angular and React for their projects. If you closely look into the capabilities of the Angular and React, you will find the solution for it. You may read about Angular and React from many blogs and forums, and you may come with an answer 'React'- because uses Virtual DOM for fast rendering of the UI elements.  
+
+If you read the above description about Angular and React you will notice one important point that Angular is a complete framework for SPA development and React is just a library. Angular is a complete web framework for developing an end-to-end web application. It provides all the features for developing a complete web application such as routing, two-way data binding, form validation, Dependency injection, CLI tool, asynchrounous functions using Observables and promises and more. But, React is just a library like jQuery which can be easily integrated with any other web framework. It is used just to increase the speed of the view rendering.   
+If you are looking for a complete web application such as HR management application, E-commerce applications, Financial applications etc you need to choose Angular. Such applciations are very large and they use multiple pages, data entry forms and reusable code logics. Angular offers built-in routing module that provides features such as  lazy loading of modules, http interceptors for reqeust and response processing, data resolvers for loading data when a route is activated, guards for conditionally activating and deactivating routes and more. It also provides built-in form handling modules control binding and validation, event handing etc. The builting DI engine helps to control the scope and lifetime of the services. 
+
+But, if you are developing a web application which is mostly used for presenting data to users than entry forms such as Dashboards, social media applications, online newspaper websites etc then you can choose ReactJS for it. Because these kind of applications are mostly using data representation UI components than the data entry forms. React's Virtual DOM with one-way data binding helps to render the data quickly on the web pages. You can also develop end-to-end web application using React but you may need to use a large set of external libraries for state-management (Redux or Flux), routing (React router), responsive design (React Bootstrap/Material-UI) and form validation (React Form).  
+
+I hope this will help you to understand the differences of two promising JS technologies for Web development. 
+
+#### Author: Sonu Sathyadas  
+#### Email : [sonusathyadas@hotmail.com](mailto:sonusathyadas@hotmail.com)
