@@ -1,5 +1,5 @@
 
-![Angular VS ReactJS](resources/angular-vs-react.png)
+![Angular VS ReactJS](resources/angular-vs-react.png){ style="display: block; margin: 0 auto" }
 # Angular vs React.JS
 ---
 ### Angular
